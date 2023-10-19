@@ -1,0 +1,380 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 0;
+    font-size: 13px;
+}
+
+
+
+h1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+form {
+    background-color: #050505;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(5, 5, 5);
+    width: 80%;
+    margin-left: 10%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #09d58d;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #050505;
+}
+
+/* Add this CSS to your stylesheet */
+.button-container {
+    position: relative;
+}
+
+.button-container button {
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    right: -7px; /* Adjust the right distance as needed */
+    top: 50%; /* Vertically center the button in the cell */
+    transform: translateY(-50%); /* Vertically center the button */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+
+/*for nav bar*/
+.form2 {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* CSS for the navigation bar */
+.form2 ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #050505; /* Background color for the navbar */
+    overflow: hidden;
+}
+
+.form2 li.nav-item {
+    float: left;
+}
+
+.form2 li.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.form2 li.nav-item a:hover {
+    background-color: #050505FF; /* Background color on hover */
+}
+
+/* Move the "Register" and "Login" links to the right */
+.form2 li.nav-item.about,
+.form2 li.nav-item.contact {
+    float: right;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #dddddd;
+
+    background-image: linear-gradient(to bottom, rgba(50,50,50,0.6) 0%,rgba(50,50,50,0.6) 100%), url("http://shoorick.ru/slide/uwdc/pic/cm-mc-style.png");
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+hr.small {
+    max-width: 100px;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+@media(max-width:768px) {
+
+}
+
+.map iframe {
+    pointer-events: none;
+}
+
+footer {
+    padding: 100px 0;
+}
+
+#to-top {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+img {
+    opacity: 0.5;
+}
+
+
+
+
+
+/*for nav bar*/
+.form2 {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* CSS for the navigation bar */
+.form2 ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #09d58d; /* Background color for the navbar */
+    overflow: hidden;
+}
+
+.form2 li.nav-item {
+    float: left;
+}
+
+.form2 li.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.form2 li.nav-item a:hover {
+    background-color: #050505; /* Background color on hover */
+}
+
+/* Move the "Register" and "Login" links to the right */
+.form2 li.nav-item.about,
+.form2 li.nav-item.contact {
+    float: right;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+
+/*for nav bar*/
+.form2 {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* CSS for the navigation bar */
+.form2 ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #050505; /* Background color for the navbar */
+    overflow: hidden;
+}
+
+.form2 li.nav-item {
+    float: left;
+}
+
+.form2 li.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.form2 li.nav-item a:hover {
+    background-color: #050505; /* Background color on hover */
+}
+
+/* Move the "Register" and "Login" links to the right */
+.form2 li.nav-item.about,
+.form2 li.nav-item.contact {
+    float: right;
+}
+

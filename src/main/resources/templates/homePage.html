@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+  <style>
+
+    .button-container {
+      text-align: center; /* Center-align the buttons within the container */
+      margin-top: 10px;
+      border-radius: inherit;
+    }
+
+    .big-button {
+      background-color: #0056b3; /* Background color for the buttons */
+      color: white; /* Text color for the buttons */
+      padding: 10px 20px; /* Padding inside the buttons */
+      font-size: 12px; /* Font size for the buttons */
+      border: none; /* Remove button border */
+      cursor: pointer; /* Change cursor on hover */
+      width: 300px;
+      height: 200px;
+    }
+
+    .big-button.button1 {
+      margin-right: 10px; /* Add margin between buttons */
+    }
+
+    .big-button:hover {
+      background-color: #0056b3; /* Background color on hover */
+    }
+
+    .welcome{
+      text-align: center;
+      color: black;
+      margin-top: 80px;
+    }
+    /* CSS for the navigation bar */
+    ul.navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #333; /* Background color for the navbar */
+      overflow: hidden;
+    }
+
+    li.nav-item {
+      float: left;
+    }
+
+    li.nav-item a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li.nav-item a:hover {
+      background-color: #555; /* Background color on hover */
+    }
+
+    /* Move the "Register" and "Login" links to the right */
+    li.nav-item.about,
+    li.nav-item.contact {
+      float: right;
+    }
+  </style>
+</head>
+<body>
+
+<ul class="navbar">
+  <li class="nav-item admin_homepage"><a href="/MainHomePage">Home</a></li>
+  <li class="nav-item about"><a href="/about">About Us</a></li>
+  <li class="nav-item contact"><a href="/contact">Contact</a></li>
+</ul>
+
+<div class="welcome">
+  <h1>Welcome to Your Activity Tracker Homepage</h1>
+</div>
+
+<div class="button-container">
+  <a href="/task_display" style="color: white"> <button class="big-button button2"><h2>Create A Task Tracker</h2></button></a>
+  <a href="/view_task" style="color: white"> <button class="big-button button3"><h2>Update A Task</h2></button></a>
+  <a href="/tasks/todo" style="color: white"> <button class="big-button button3"><h2>View Task Base on Task Status TODO</h2></button></a>
+</div>
+
+<div class="button-container">
+  <a href="/tasks/progress" style="color: white"> <button class="big-button button3"><h2>View Task Base on Task Status IN_PROGRESS</h2></button></a>
+  <a href="/tasks/done" style="color: white"> <button class="big-button button3"><h2>View Task Base on Status DONE</h2></button></a>
+</div>
+
+</body>
+</html>

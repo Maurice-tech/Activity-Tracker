@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+
+  <style th:inline="text">
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 600;
+      color: #dddddd;
+
+      background-image: linear-gradient(to bottom, rgba(50,50,50,0.6) 0%,rgba(50,50,50,0.6) 100%), url("http://shoorick.ru/slide/uwdc/pic/cm-mc-style.png");
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
+    .text-vertical-center {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .text-vertical-center h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 4.5em;
+      font-weight: 700;
+    }
+
+    .btn-dark {
+      border-radius: 0;
+      color: #fff;
+      background-color: rgba(0,0,0,0.4);
+    }
+
+    .btn-dark:hover,
+    .btn-dark:focus,
+    .btn-dark:active {
+      color: #fff;
+      background-color: rgba(0,0,0,0.7);
+    }
+
+    .btn-light {
+      border-radius: 0;
+      color: #333;
+      background-color: rgb(255,255,255);
+    }
+
+    .btn-light:hover,
+    .btn-light:focus,
+    .btn-light:active {
+      color: #333;
+      background-color: rgba(255,255,255,0.8);
+    }
+
+    hr.small {
+      max-width: 100px;
+    }
+
+    .sidebar-nav li {
+      text-indent: 20px;
+      line-height: 40px;
+    }
+
+    .sidebar-nav li a {
+      display: block;
+      text-decoration: none;
+      color: #999;
+    }
+
+    .sidebar-nav li a:hover {
+      text-decoration: none;
+      color: #fff;
+      background: rgba(255,255,255,0.2);
+    }
+
+    .sidebar-nav li a:active,
+    .sidebar-nav li a:focus {
+      text-decoration: none;
+    }
+
+    .sidebar-nav {
+      height: 55px;
+      font-size: 18px;
+      line-height: 55px;
+    }
+
+    .sidebar-nav > .sidebar-brand a {
+      color: #999;
+    }
+
+    .sidebar-nav > .sidebar-brand a:hover {
+      color: #fff;
+      background: none;
+    }
+
+    .services {
+      padding: 50px 0;
+    }
+
+    .service-item {
+      margin-bottom: 30px;
+    }
+
+    .callout {
+      display: table;
+      width: 100%;
+      height: 400px;
+      color: #fff;
+      background: url(../img/callout.jpg) no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+    }
+
+    .call-to-action {
+      padding: 50px 0;
+    }
+
+    .call-to-action .btn {
+      margin: 10px;
+    }
+
+    @media(max-width:768px) {
+
+    }
+
+    .map iframe {
+      pointer-events: none;
+    }
+
+    footer {
+      padding: 100px 0;
+    }
+
+    #to-top {
+      display: none;
+      position: fixed;
+      bottom: 5px;
+      right: 5px;
+    }
+
+    img {
+      opacity: 0.5;
+    }
+  </style>
+
+
+</head>
+<body>
+
+<ul class="navbar">
+  <li class="nav-item admin_homepage"><a href="/">Home</a></li>
+  <li class="nav-item about"><a href="/about">About Us</a></li>
+  <li class="nav-item contact"><a href="/contact">Contact</a></li>
+</ul>
+
+<div class="welcome">
+  <h1>Activity Tracker</h1>
+  <h1>Register or Login to create your activity tracker</h1>
+</div>
+
+<div class="button-container">
+  <a href="/cus_register" style="color: white"> <button class="big-button button2">Register A New Account</button></a>
+  <a href="/cus_login" style="color: white"> <button class="big-button button3"> Login if Already Have An Account</button></a>
+</div>
+
+</body>
+</html>
